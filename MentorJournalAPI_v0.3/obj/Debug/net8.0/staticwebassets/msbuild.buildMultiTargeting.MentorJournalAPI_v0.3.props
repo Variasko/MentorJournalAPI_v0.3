@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\MentorJournalAPI_v0.3.props" />
-</Project>
