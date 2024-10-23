@@ -1,3 +1,4 @@
+using MentorJournalAPI_v0._3.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<MentorJournalV02Context>(options =>
+    options.UseSqlServer("Data Source=DESKTOP-J7F367J\\SQLEXPRESS;Initial Catalog=MentorJournal_v0.2;Integrated Security=True;Encrypt=False"));
 
 var app = builder.Build();
 
