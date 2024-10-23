@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NebyzOOSjc8=",
+  "dgSpecHash": "JyUcU6bBv8w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\caxac\\source\\repos\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
+  "projectFilePath": "C:\\Users\\caxac\\OneDrive\\Рабочий стол\\Разработка Python\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caxac\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\caxac\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

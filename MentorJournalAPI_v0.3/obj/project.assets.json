@@ -4463,11 +4463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caxac\\source\\repos\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
+      "projectUniqueName": "C:\\Users\\caxac\\OneDrive\\Рабочий стол\\Разработка Python\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
       "projectName": "MentorJournalAPI_v0.3",
-      "projectPath": "C:\\Users\\caxac\\source\\repos\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
+      "projectPath": "C:\\Users\\caxac\\OneDrive\\Рабочий стол\\Разработка Python\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3.csproj",
       "packagesPath": "C:\\Users\\caxac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caxac\\source\\repos\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\obj\\",
+      "outputPath": "C:\\Users\\caxac\\OneDrive\\Рабочий стол\\Разработка Python\\MentorJournalAPI_v0.3\\MentorJournalAPI_v0.3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caxac\\AppData\\Roaming\\NuGet\\NuGet.Config",

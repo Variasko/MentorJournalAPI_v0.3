@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentorJournalAPI_v0.3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+803138d6ec40c58ec99b8bdfd214026397c7824c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2cf3021a211daee4e35e588d72877f717725db1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentorJournalAPI_v0.3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentorJournalAPI_v0.3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

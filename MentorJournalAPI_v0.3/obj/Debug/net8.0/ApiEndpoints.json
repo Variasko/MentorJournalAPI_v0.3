@@ -8,5 +8,153 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivistController",
+    "Method": "GetActivistById",
+    "RelativePath": "api/Activist/byId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivistController",
+    "Method": "DeleteActivist",
+    "RelativePath": "api/Activist/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivistController",
+    "Method": "AddNewActivist",
+    "RelativePath": "api/Activist/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activist",
+        "Type": "MentorJournalAPI_v0._3.Models.Activist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivistController",
+    "Method": "UpdateActivist",
+    "RelativePath": "api/Activist/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedActivist",
+        "Type": "MentorJournalAPI_v0._3.Models.Activist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivityTypeController",
+    "Method": "GetAllActivityTypes",
+    "RelativePath": "api/ActivityType/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivityTypeController",
+    "Method": "GetActivityTypeById",
+    "RelativePath": "api/ActivityType/byId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivityTypeController",
+    "Method": "DeleteActivityType",
+    "RelativePath": "api/ActivityType/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivityTypeController",
+    "Method": "AddNewActivityType",
+    "RelativePath": "api/ActivityType/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activityType",
+        "Type": "MentorJournalAPI_v0._3.Models.ActivityType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivityTypeController",
+    "Method": "UpdateActivityType",
+    "RelativePath": "api/ActivityType/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedActivityType",
+        "Type": "MentorJournalAPI_v0._3.Models.ActivityType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
