@@ -1,1 +1,3 @@
 .vs
+\MentorJournalAPI_v0.3\obj
+\MentorJournalAPI_v0.3\bin

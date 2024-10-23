@@ -26,7 +26,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                     return Ok(_context.Activists.Find(id));
                 } catch (Exception ex)
                 {
-                    return BadRequest(ex.Message);
+                    return Content(ex.Message);
                 }
             }
         }
@@ -42,7 +42,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                     return Ok();
                 } catch (Exception ex)
                 {
-                    return BadRequest(ex.Message);
+                    return Content(ex.Message);
                 }
             }
         }
@@ -63,7 +63,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                     return Ok();
                 } catch (Exception ex)
                 {
-                    return BadRequest(ex.Message);
+                    return Content(ex.Message);
                 }
             }
         }
@@ -84,7 +84,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                     return Ok();
                 } catch (Exception ex)
                 {
-                    return BadRequest(ex.Message);
+                    return Content(ex.Message);
                 }
             }
         }
