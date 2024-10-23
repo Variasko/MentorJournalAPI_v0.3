@@ -1,0 +1,6 @@
+@MentorJournalAPI_v0._3_HostAddress = http://localhost:5267
+
+GET {{MentorJournalAPI_v0._3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

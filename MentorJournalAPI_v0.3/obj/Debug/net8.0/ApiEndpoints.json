@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.ActivistController",
+    "Method": "GetAllActivists",
+    "RelativePath": "api/Activist/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
