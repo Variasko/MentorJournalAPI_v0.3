@@ -1,0 +1,61 @@
+# Игнорировать папки bin и obj
+bin/
+obj/
+
+# Игнорировать папку .vs
+.vs/
+
+# Игнорировать файлы и папки, связанные с Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.cache
+*.log
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.scc
+
+# Игнорировать файлы, связанные с NuGet
+*.nupkg
+*.symbols.nupkg
+*.nuget.g.props
+*.nuget.g.targets
+
+# Игнорировать файлы, связанные с MSBuild
+*.csproj.user
+*.csproj.user.user
+*.publishsettings
+*.publishproj
+*.pubxml
+*.pubxml.user
+*.targets
+*.targets.user
+*.targets.user.user
+*.targets.user.user.user
+*.targets.user.user.user.user
+*.targets.user.user.user.user.user
+*.targets.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user.user
+*.targets.user.user.user.user.user.user.user.user.u
