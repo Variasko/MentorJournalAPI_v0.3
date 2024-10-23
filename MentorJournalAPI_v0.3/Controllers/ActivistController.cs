@@ -16,5 +16,13 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok(_context.Activists.ToList());
             }
         }
+        [HttpGet("byId/{id}")]
+        public IActionResult GetActivistById(int id)
+        {
+            using (var _context = new MentorJournalV02Context())
+            {
+                return Ok(_context.Activists.Find(id));
+            }
+        }
     }
 }
