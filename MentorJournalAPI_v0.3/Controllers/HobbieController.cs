@@ -29,7 +29,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok(_context.Hobbies.Find(id));
             } catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
         }
         [HttpPost("new")]
@@ -43,7 +43,7 @@ namespace MentorJournalAPI_v0._3.Controllers
             }
             catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
         }
         [HttpPut("update/{id}")]
@@ -72,7 +72,7 @@ namespace MentorJournalAPI_v0._3.Controllers
             }
             catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
         }
     }
