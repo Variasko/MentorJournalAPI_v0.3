@@ -156,5 +156,163 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieController",
+    "Method": "GetAllHobbies",
+    "RelativePath": "api/Hobbie/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieController",
+    "Method": "GetHobbieById",
+    "RelativePath": "api/Hobbie/byId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieController",
+    "Method": "DeleteHobbie",
+    "RelativePath": "api/Hobbie/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieController",
+    "Method": "AddNewHobbie",
+    "RelativePath": "api/Hobbie/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hobbie",
+        "Type": "MentorJournalAPI_v0._3.Models.Hobbie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieController",
+    "Method": "UpdateHobbie",
+    "RelativePath": "api/Hobbie/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedHobbie",
+        "Type": "MentorJournalAPI_v0._3.Models.Hobbie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieTypeController",
+    "Method": "GetAllHobbieTypes",
+    "RelativePath": "api/HobbieType/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieTypeController",
+    "Method": "GetHobbieTypeById",
+    "RelativePath": "api/HobbieType/byId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieTypeController",
+    "Method": "DeleteHobbieType",
+    "RelativePath": "api/HobbieType/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieTypeController",
+    "Method": "AddNewHobbieType",
+    "RelativePath": "api/HobbieType/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hobbieType",
+        "Type": "MentorJournalAPI_v0._3.Models.HobbieType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorJournalAPI_v0._3.Controllers.HobbieTypeController",
+    "Method": "UpdateHobbieType",
+    "RelativePath": "api/HobbieType/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedHobbieType",
+        "Type": "MentorJournalAPI_v0._3.Models.HobbieType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
