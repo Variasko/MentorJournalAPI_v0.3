@@ -32,7 +32,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok(_context.Activists.Find(id));
             } catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
             
         }
@@ -47,7 +47,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok();
             } catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
             
         }
@@ -67,7 +67,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok();
             } catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
             
         }
@@ -87,7 +87,7 @@ namespace MentorJournalAPI_v0._3.Controllers
                 return Ok();
             } catch (Exception ex)
             {
-                return Content(ex.Message);
+                return StatusCode(500);
             }
             
         }
