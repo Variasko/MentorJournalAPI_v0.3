@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace MentorJournalAPI_v0._3.Models;
 
@@ -33,9 +34,11 @@ public partial class Person
 
     public string LivingAddress { get; set; } = null!;
 
+    [JsonIgnore]
+
     public virtual Admin? Admin { get; set; }
-
+    [JsonIgnore]
     public virtual Mentor? Mentor { get; set; }
-
+    [JsonIgnore]
     public virtual Student? Student { get; set; }
 }

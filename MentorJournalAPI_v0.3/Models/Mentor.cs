@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace MentorJournalAPI_v0._3.Models;
 
@@ -12,8 +13,8 @@ public partial class Mentor
     public string Login { get; set; } = null!;
 
     public string Password { get; set; } = null!;
-
-    public virtual Category Category { get; set; } = null!;
-
-    public virtual Person Person { get; set; } = null!;
+    [JsonIgnore]
+    public virtual Category? Category { get; set; } = null!;
+    [JsonIgnore]
+    public virtual Person? Person { get; set; } = null!;
 }
