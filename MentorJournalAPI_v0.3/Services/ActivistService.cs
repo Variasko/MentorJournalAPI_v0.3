@@ -34,7 +34,9 @@ public class ActivistService : IActivistService
 
         public async Task<ActivistDto?> GetByIdAsync(int id)
         {
-            var activist = await _context.Activists.FindAsync(id);
+            var activist = await _context.Activists
+                .FindAsync(id);
+
             if (activist == null)
             {
                 throw new InvalidOperationException("Error geting Activist. Activist by id not found.");
@@ -72,7 +74,8 @@ public class ActivistService : IActivistService
         }
         public async Task<ActivistDto> UpdateAsync(int id, ActivistDto activistDto)
         {
-            Activist existingActivist = await _context.Activists.FindAsync(id);
+            Activist existingActivist = await _context.Activists
+                .FindAsync(id);
 
             if (existingActivist == null)
             {
@@ -95,7 +98,8 @@ public class ActivistService : IActivistService
         }
         public async Task DeleteAsync(int id)
         {
-            Activist existingActivist = await _context.Activists.FindAsync(id);
+            Activist existingActivist = await _context.Activists
+                .FindAsync(id);
 
             if (existingActivist == null)
             {
