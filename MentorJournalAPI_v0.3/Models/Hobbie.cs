@@ -11,8 +11,8 @@ public partial class Hobbie
     public int StudentId { get; set; }
 
     public int HobbieTypeId { get; set; }
-    [JsonIgnore]
+    
     public virtual HobbieType? HobbieType { get; set; } = null!;
-    [JsonIgnore]
+    
     public virtual Student? Student { get; set; } = null!;
 }
