@@ -9,6 +9,11 @@ namespace MentorJournalAPI_v0._3.Services
 {
 public class DormitoryService : IDormitoryService
     {
-        
+        public MentorJournalV02Context _context;
+
+        public ObservationListService(MentorJournalV02Context context)
+        {
+            _context = context;
+        }
     }
 }
