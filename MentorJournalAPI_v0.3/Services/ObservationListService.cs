@@ -87,6 +87,8 @@ public class ObservationListService : IObservationListService
             {
                 throw new InvalidOperationException("Error updating ObservationList.", ex);
             }
+            observationlistDto.Id = observationlist.Id;
+            return observationlistDto;
         }
         public async Task DeleteAsync(int id)
         {

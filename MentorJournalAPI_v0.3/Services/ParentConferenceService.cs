@@ -97,6 +97,8 @@ public class ParentConferenceService : IParentConferenceService
             {
                 throw new InvalidOperationException("Error updating ParentConference.", ex);
             }
+            parentconferenceDto.Id = parentconference.Id;
+            return parentconferenceDto;
         }
         public async Task DeleteAsync(int id)
         {

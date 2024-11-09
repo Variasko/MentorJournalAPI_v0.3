@@ -75,7 +75,7 @@ public class ActivityTypeService : IActivityTypeService
                 .FindAsync(id);
 
             if (existingActivityType == null)
-                throw new InvalidOperationException("Error updating ActivityType.", ex);
+                throw new InvalidOperationException("Error updating ActivityType.");
 
             existingActivityType.Name = activitytypeDto.Name;
 

@@ -19,7 +19,7 @@ public class MentorService : IMentorService
         }
         public async Task<IEnumerable<MentorDto>> GetAllAsync()
         {
-            var mentors = _context.Mentors
+            var mentors = await _context.Mentors
                 .ToListAsync();
 
             var mentorDtos = mentors.Select(m => new MentorDto

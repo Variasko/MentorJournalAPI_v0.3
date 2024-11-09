@@ -56,7 +56,7 @@ namespace MentorJournalAPI_v0._3.Controllers
             try
             {
                 var createdAdmin = await _adminService.CreateAsync(adminDto);
-                return CreatedAtAction(nameof(GetById), new { id = createdAdmin.Id }, createdAdmin);
+                return CreatedAtAction(nameof(GetById), new { id = createdAdmin.PersonId }, createdAdmin);
             }
             catch (Exception ex)
             {

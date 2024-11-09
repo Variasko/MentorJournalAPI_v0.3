@@ -1,19 +1,20 @@
-using Microsoft.EntityFrameworkCore;
 using MentorJournalAPI_v0._3.Interfaces;
 using MentorJournalAPI_v0._3.Models;
-using MentorJournalAPI_v0._3.DTOs;
 using MentorJournalAPI_v0._3.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
 
-// Add DbContext
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<MentorJournalV02Context>(options =>
     options.UseSqlServer("Data Source=DESKTOP-J7F367J\\SQLEXPRESS;Initial Catalog=MentorJournal_v0.2;Integrated Security=True;Encrypt=False"));
 
-// Add services
 builder.Services.AddScoped<IGroupService, GroupService>();
 builder.Services.AddScoped<IHobbieService, HobbieService>();
 builder.Services.AddScoped<IHobbieTypeService, HobbieTypeService>();
@@ -37,10 +38,6 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IClassHourService, ClassHourService>();
 builder.Services.AddScoped<IDegreeOfKinshipService, DegreeOfKinshipService>();
 builder.Services.AddScoped<IDormitoryService, DormitoryService>();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 

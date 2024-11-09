@@ -113,6 +113,9 @@ public class ParentService : IParentService
             {
                 throw new InvalidOperationException("Error updating Parent.", ex);
             }
+
+            parentDto.Id = existingParent.Id;
+            return parentDto;
         }
         public async Task DeleteAsync(int id)
         {
