@@ -11,8 +11,8 @@ public partial class Activist
     public int StudentId { get; set; }
 
     public int ActivityTypeId { get; set; }
-    [JsonIgnore]
+
     public virtual ActivityType? ActivityType { get; set; } = null!;
-    [JsonIgnore]
+
     public virtual Student? Student { get; set; } = null!;
 }
